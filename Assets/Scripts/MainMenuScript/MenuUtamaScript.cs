@@ -8,6 +8,11 @@ public class MenuUtamaScript : MonoBehaviour
     public void play(){
         SceneManager.LoadScene("Level1");
     }
+
+    public void faq()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
     public void quit(){
         Application.Quit();
     }

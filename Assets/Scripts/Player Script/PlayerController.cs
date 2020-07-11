@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
         if(attack_Timer > current_attack_Timer){
             canAttack = true;
         }
-        if(Input.GetKeyDown(KeyCode.Mouse0)){
+        if(Input.GetKeyDown(KeyCode.Space)){
             if(canAttack){
                 canAttack = false;
                 attack_Timer = 0f;
