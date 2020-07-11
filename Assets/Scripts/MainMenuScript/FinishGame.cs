@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class FinishGame : MonoBehaviour
 {
-    static public void play()
+    public void play()
     {
         SceneManager.LoadScene("Level1");
     }
